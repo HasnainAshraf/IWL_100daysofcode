@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif
+}
+/* .div-1 nav{
+    position: fixed;
+   background-color: white;
+   width: 100%;
+   border-radius: 50px;
+    
+} */
+.div-1{
+   height: 100vh;
+   width: 100%;
+   background-image: url(p3.jpg);
+   background-size: cover;
+   background-position: center;
+   
+
+}
+.logo{
+    color: #6b6b6b;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+    
+}
+.logostyle{
+    color:  rgb(166, 221, 218) ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-top: 45px;
+    padding-right: 8%;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;     
+}
+nav ul li a{
+    color:  #45A29E;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform;
+    transition: 0.4s;
+    
+}
+nav ul li a:hover{
+    color:rgb(166, 221, 218) ;
+    
+    
+    transform:scale(1.2);
+
+}
+.btn-1{
+    background-color: #1F2833 ;
+    color: #45A29E;
+    text-decoration: none;
+    border:2px ;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn-1:hover{
+    transform: scale(1.5);
+    background-color: #66FCF1;
+    
+}
+.me{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%); 
+
+}
+h3{
+    margin: 20px 0px 20px;
+    font-size:40px ;
+    color:  #45A29E;
+}
+h4{
+    font-size: 30px;
+    margin: 20px 0px 20px ;
+    color:  #66FCF1;
+    
+}
+h5{
+    font-size: 15px;
+    margin: 20px 0px 20px ;
+    color:  #45A29E;
+}
+.fo form{
+   width: 380px; 
+   max-width: 100%;
+   position: relative;
+   
+}
+.fo form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid rgb(166, 221, 218) ;
+    border-radius: 30px;
+}
+.fo form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: solid 2px;
+    padding: 8px 30px ;
+    border-radius: 30px;
+    background-color:rgb(166, 221, 218)  ;
+    border-color: rgb(166, 221, 218) ;;
+    top: 6px;
+    right: 6px;
+    color: black;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #212121;
+    
+}
+
+.about img{
+
+    height: auto;
+    width: 600px;
+    border-radius: 20px;
+}
+.txt-1{
+    width: 550px;
+}
+.txt-1 p{
+    color:#66FCF1;
+}
+.por-2{
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.d-1{
+    color: rgb(166, 221, 218);
+}
+.d-2{
+   color:rgb(166, 221, 218);
+}
+.h-6{
+    font-size: 35px;
+    margin: 20px 0px 20px;
+    color:#6b6b6b;
+    text-align: center;
+ 
+}
+
+.b-1{
+    background-color:  #1F2833 ;
+    color:#45A29E;
+    text-decoration: none;
+    border:2px ;
+    padding: 10px 25px;
+    margin: 20px 0px 20px;
+    border-radius: 30px;
+    transition: transform .4s;
+
+}
+.b-1:hover{
+    transform: scale(1.5);
+    background-color:  #66FCF1;
+    cursor: pointer;
+}
+.ser{
+    
+     background-color: #212121;
+}
+.t{
+    font-size: 70px;
+    margin: 20px 0px 20px;
+    color: #6b6b6b;
+    text-align: center;
+    margin: 30px auto;
+    width: 1130px;
+    margin: 0px;
+    padding-left: 150px;
+}
+
+
+
+
+.d-3{
+    color:rgb(166, 221, 218);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.h-8{
+    font-weight: bold;
+    font-size: 20px;
+    color:  #45A29E;
+    margin-bottom: 15px;    
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color: #6b6b6b;
+}
+.card i{
+    font-size : 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:  #1F2833;
+
+}
+.card p{
+    text-align: center; 
+    color:  #66FCF1;
+}
+.pra p{
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+.card .button-4{
+    background-color: #1F2833 ;
+    color: #45A29E;
+    text-decoration: none;
+    border:2px ;
+    padding: 10px 25px;
+    margin: 20px 0px 20px;
+    border-radius: 30px;
+    transition:.4s;
+}
+.card .button-4:hover{
+    transform: scale(1.5);
+    background-color: #66FCF1;
+    cursor: pointer;
+}
+.contact-me{
+    width: 100%;
+    height: 355px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #212121;
+    padding-top: 50px;
+    
+ 
+}
+
+.last{
+    font-size: 70px;
+    margin: 20px 0px 20px;
+    color: #45A29E;
+    text-align: center;
+    margin: 30px auto;
+    width: 1130px;
+}
+.contact-me .btn-5{
+    background-color:  #1F2833 ;
+    color:#45A29E;
+    text-decoration: none;
+    border:2px ;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.contact-me .btn-5:hover{
+    transform: scale(1.5);
+    background-color:  #66FCF1;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6b6b6b;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    margin: 20px;
+    font-weight: bold;
+    color: #45A29E;;
+}
+footer p:nth-child(2){
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+    font-weight: bold;
+    color: #45A29E;;
+
+}
+.socials{
+    display: flex;
+}
+.socials a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(166, 221, 218);
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+    transition: transform .4s;
+        
+}
+.socials a:hover{
+    transform: scale(1.5);
+    background-color: black;
+}
+.facebook{
+    color: #4267B2;
+}
+.insta{
+    color: #fa7e1e ;
+}
+.twi{
+    color: #00acee;
+}
+@media (max-width: 768px) {
+    .sidebar {
+      display: none;
+    }
+  }
